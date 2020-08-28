@@ -116,34 +116,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section>
     <div class="container">
 
-      <script type="text/javascript">
-      
-      const zeroFill = n => {
-        return ('0' + n).slice(-2);
-      }
-
-      // Cria intervalo
-      const interval = setInterval(() => {
-        
-        const now = new Date();
-
-        // Formata a data conforme dd/mm/aaaa hh:ii:ss
-        const dataHora = zeroFill(now.getUTCDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + "00";
-
-        const min = now.getMinutes();
-
-        // Exibe na tela usando a div#data-hora
-        document.getElementById('data-hora').innerHTML = dataHora;
-        document.getElementById('data-min').innerHTML = min;
-      }, 1000);
-
-
-    </script>
 
 
 
       <div class="mx-auto divs" style="width: 60%;border-bottom: 1px solid #E5E5E5">
-        <h1 style="margin-top: 20px;font-weight: 600;font-size: 1.7em">Será o Fim da LotoFácil no Brasil?</h1>
+        <h1 style="margin-top: 20px;font-weight: 600;font-size: 1.5em">Será o Fim da LotoFácil no Brasil?</h1>
       
         <p style="font-size: 1.2em;color: #626568">
           Justiça Libera Aplicativo Inteligente e Donos de Lotéricas Entram em Pânico!
@@ -151,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <p style="font-size: 0.9em">São Paulo - SP</p>
         <p style="font-size: 0.8em">
-          <span id="data-hora">14/08/20 07:39AM</span> Atualizado há <span id="data-min">33</span> min
+         
         </p>
       </div>
 
